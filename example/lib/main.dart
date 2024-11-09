@@ -37,7 +37,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  // Sample data for the dropdown
   List<String> items = [
     'Item 1',
     'Item 2',
@@ -66,12 +65,6 @@ class _MyHomePageState extends State<MyHomePage> {
               },
             ),
             const SizedBox(height: 20),
-            // Text(
-            //   selectedItem == null
-            //       ? 'No item selected'
-            //       : 'Selected Item: ${selectedItem?.title}',
-            //   style: const TextStyle(fontSize: 16),
-            // ),
           ],
         ),
       ),
